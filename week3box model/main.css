@@ -1,0 +1,14 @@
+div {
+  display: block;
+  padding: 50px;
+  width: 25px;
+  color: white;
+  background-color: blue;
+  border: 1px solid black;
+}
+span {
+  display: inline;
+  padding: 50px;
+  background-color: pink;
+  border: 1px solid black;
+}
