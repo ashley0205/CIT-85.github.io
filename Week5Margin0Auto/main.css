@@ -1,0 +1,29 @@
+body {
+    background-color: blue;
+    margin: 0;
+}
+section {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: aquamarine;
+    border: .5em solid black;
+}
+img {
+    margin: 0 auto;
+    border: .5em groove gold;
+    width: 300px;
+    height: 180px;
+    border-radius: 50%;
+}
+h1.blue {
+    text-align: left;
+    color: blue;
+}
+h1.red {
+    text-align: left;
+    color: red;
+}
+p {
+    text-align: left;
+}

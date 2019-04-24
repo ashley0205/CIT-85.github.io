@@ -1,0 +1,59 @@
+body {
+    overflow: hidden;
+    margin: 1em;
+    padding: 0;
+    border: 0;
+}
+header {
+    background-color: red;
+    text-align: center;
+    padding: 2em;
+    margin-bottom: .5em;
+}
+section {
+    float: left;
+    width: 60%;
+    height: 30em;
+    background-color: orange;
+    text-align: center;
+}
+nav {
+    background-color: orangered;
+    text-align: center;
+    padding: 2em;
+    margin-bottom: .5em;
+}
+article {
+    height: 25%;
+    width: 90%;
+    text-align: center;
+    background-color: green;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12em;
+}
+article.second {
+    height: 25%;
+    width: 90%;
+    text-align: center;
+    background-color: green;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .5em;
+
+}
+aside {
+    float: right;
+    width: 38%;
+    background-color: blue;
+    text-align: center;
+    height: 30em;
+    margin-bottom: .5em;
+}
+footer {
+    clear: both;
+    background-color: purple;
+    position: relative;
+    text-align: center;
+    padding: 2em;
+}

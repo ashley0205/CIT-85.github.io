@@ -1,0 +1,24 @@
+div.container {
+    border: 2px solid red;
+}
+img.right {
+    float: right;
+    height: 100px;
+    margin: 1em;
+    border: 2px solid red;
+}
+div.container-2 {
+    border: 2px solid red;
+    margin-top: 2em;
+    clear: both;
+    overflow: auto;
+}
+img.left {
+    float: left;
+    height: 100px;
+    margin: 1em;
+    border: 2px solid red;
+}
+p.second-paragraph {
+    overflow: auto;
+}

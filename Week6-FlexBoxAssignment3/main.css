@@ -1,0 +1,41 @@
+div.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+div.one {
+    flex-direction: row;
+    width: 100%;
+    padding: 2em;
+    text-align: center;
+    background-color: orangered;
+}
+div.two {
+    flex-direction: row;
+    flex-grow: 1;
+    width: 60%;
+    padding: 2em 0;
+    text-align: center;
+    background-color: lightblue;
+}
+div.three {
+    flex-direction: row;
+    flex-grow: 1;
+    width: 40%;
+    padding: 2em 0;
+    text-align: center;
+    background-color: aquamarine;
+}
+div.four {
+    flex-grow: 1;
+    width: 40%;
+    padding: 2em 0;
+    text-align: center;
+    background-color: yellow;
+}
+div.five {
+    flex-grow: 1;
+    width: 60%;
+    padding: 2em 0;
+    text-align: center;
+    background-color: purple;
+}

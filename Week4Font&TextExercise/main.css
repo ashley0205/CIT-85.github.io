@@ -1,0 +1,45 @@
+/* font-family: 'Roboto', sans-serif; */
+* {
+  font-size: 1.3em;
+}
+h1 {
+  text-shadow: 8px 16px 32px;
+}
+p.generic-serif {
+  font-family: serif;
+}
+p.generic-san-serif {
+  font-family: serif;
+}
+p.google-fonts {
+  font-family: 'Roboto';
+}
+p.google-fonts-weight0 {
+  font-family: 'Roboto';
+}
+p.google-fonts-weight1 {
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+p.google-fonts-weight2 {
+  font-family: 'Roboto';
+  font-weight: bolder;
+  letter-spacing: 1em;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+p.not-relevant {
+  text-decoration: line-through;
+}
+p.indent {
+  text-indent: 1em;
+  width: 80%;
+}
+p.indent::first-line {
+  font-style: italic;
+  text-transform: uppercase;
+}

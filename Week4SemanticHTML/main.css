@@ -1,0 +1,43 @@
+body {
+    overflow: hidden;
+    margin: 1em;
+    padding: 0;
+    border: 0;
+}
+header {
+    background-color: grey;
+    text-align: center;
+    padding: 2em;
+    margin-bottom: .5em;
+}
+section {
+    float: left;
+    width: 60%;
+    height: 30em;
+    background-color: grey;
+    text-align: center;
+}
+article {
+    height: 50%;
+    width: 90%;
+    text-align: center;
+    background-color: darkgray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12em;
+}
+aside {
+    float: right;
+    width: 38%;
+    background-color: grey;
+    text-align: center;
+    height: 30em;
+    margin-bottom: .5em;
+}
+footer {
+    clear: both;
+    background-color: grey;
+    position: relative;
+    text-align: center;
+    padding: 2em;
+}

@@ -1,0 +1,49 @@
+header.main {
+    background-color: aqua;
+    margin-bottom: .1em;
+    font-size: 2em;
+}
+nav {
+    background-color: yellow;
+    float: left;
+    width: 24%;
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 5em;
+    margin-bottom: .1em;
+}
+nav header {
+    text-align: left;
+}
+article {
+    float: left;
+    width: 55%;
+    background-color: lawngreen;
+    margin-bottom: .1em;
+    margin-right: .1em;
+    margin-left: .1em;
+    font-size: 2em;
+    text-align: center;
+}
+article header, footer {
+    text-align: left;
+}
+section {
+    background-color: plum;
+    margin: .5em;
+}
+aside {
+    background-color: orange;
+    float: right;
+    width: 20%;
+    font-size: 2em;
+    padding-bottom: .65em;
+}
+aside section {
+    background-color: red;
+}
+footer.footer {
+    clear: both;
+    background-color: aqua;
+    font-size: 2em;
+}

@@ -1,0 +1,10 @@
+div.circle {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+div.circle:hover {
+    background-color: blue;
+    transition: 2s;
+}

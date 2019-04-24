@@ -1,0 +1,41 @@
+body, ul, section, aside, div.flex-container, article {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+header {
+    display: block;
+    background-color: gold;
+    height: 5em;
+    width: 100%;
+    border: 5px solid blue;
+    box-sizing: border-box;
+}
+section {
+    float: left;
+    width: 25%;
+    height: 10em;
+    background-color: lightskyblue;
+    margin: 0;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+aside {
+    float: right;
+    width: 75%;
+    height: 10em;
+    background-color: greenyellow;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+div.flex-container {
+    display: flex;
+    clear: both;
+    border: 5px solid red;
+    box-sizing: border-box;
+}
+article {
+    flex-grow: 1;
+    height: 5em;
+    background-color: purple;
+}

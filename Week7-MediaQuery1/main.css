@@ -1,0 +1,6 @@
+/* Only worked when I set width to 1184px? */
+@media screen and (min-width: 1184px) {
+    h1 {
+        color: red;
+    }
+  }

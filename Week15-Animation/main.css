@@ -1,0 +1,17 @@
+div.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: blue;
+    animation-name: color;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes color {
+    from {
+        background-color: blue;
+    }
+    to {
+        background-color: yellow;
+    }
+}

@@ -1,0 +1,75 @@
+body, header, ul, li, a, footer {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+header {
+    text-align: center;
+    padding: 1em 0;
+    font-size: 2em;
+}
+ul {
+    background-color: beige;
+    text-align: center;
+    padding: 1em 0;
+    margin-bottom: 1em;
+}
+ul li {
+    display: inline;
+    padding: 1em 1em;
+}
+ul li:hover {
+    background-color: bisque;
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+section {
+    padding: 10em 5em;
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+section img {
+    width: 600px;
+    height: 200px;
+    box-shadow: 4px 8px 16px;
+}
+div.flex-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+article {
+    flex-grow: 1;
+    height: 30em;
+    flex-direction: column;
+    border: 2px solid black;
+    text-align: center;
+}
+aside {
+    flex-grow: 1;
+    height: 30em;
+    flex-direction: column;
+    border: 2px solid black;
+    text-align: center;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+}
+footer {
+    text-align: center;
+    padding: 1em 0;
+    font-size: 2em;
+    margin-top: .5em;
+    background-color: beige;
+}

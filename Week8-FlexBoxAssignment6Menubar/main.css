@@ -1,0 +1,38 @@
+body, html, ul, li, a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+}
+li {
+    flex-grow: 1;
+    flex-direction: row;
+    width: 100%;
+    padding: 1em 0;
+    background-color: rgb(21, 190, 233);
+    list-style-type: none;
+    border-top: 2px solid lightblue;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+@media screen and (min-width: 1008px) {
+    ul {
+        flex-wrap: nowrap;
+        background-color: rgb(21, 190, 233);
+        justify-content: flex-end;
+        
+    }
+    li {
+        padding: 1em 0;
+        flex-grow: 0;
+        width: 6%;
+        border: none;
+    }
+}

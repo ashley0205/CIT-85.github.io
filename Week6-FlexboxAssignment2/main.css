@@ -1,0 +1,14 @@
+div.flex-container {
+    display: flex;
+}
+div.grow {
+    flex-grow: 1;
+    width: 400px;
+    height: 100px;
+    border: 2px solid black;
+}
+div.grow2 {
+    flex-grow: 2;
+    width: 400px;
+    border: 2px solid black;
+}
